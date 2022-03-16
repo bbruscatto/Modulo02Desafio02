@@ -1,7 +1,7 @@
-import { Component } from 'react';
 import { FiPlusSquare } from 'react-icons/fi';
 
 import { Container } from './styles';
+import Logo from '../../assets/logo.svg';
 
 interface HeaderProps {
   openModal: () => void;
@@ -9,7 +9,6 @@ interface HeaderProps {
 
 export default function Header({ openModal }: HeaderProps) {
 
-  const Logo = require("../../assets/logo.svg") as string;
 
   return (
     <Container>
